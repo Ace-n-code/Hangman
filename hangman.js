@@ -177,4 +177,5 @@ function end_game()
     button2.addEventListener("click", function(){hangman()}); //call hangman function
 }
 
+aud1.play();
 window.onload= hangman();   //calling the main funtion when page loads
