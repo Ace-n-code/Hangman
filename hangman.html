@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <b>HANGMAN</b>
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <div class="container">
+            <h1>Hangman Game</h1>
+            <p id="level"></p>
+            <div class="audio">
+                <audio autoplay loop id="creepy">
+                    <source src="audios/creepy.mp3">
+                <audio id="stab">
+                    <source src="audios/stab.mp3">
+                <audio loop id="upbeat">
+                        <source src="audios/upbeat.mp3">
+                </audio>
+            </div>
+            <div class="hangman">
+            </div>
+            <div class="word">
+            </div>
+            <div class="hint">
+            </div>
+            <div class="letters">
+            </div>
+            <div class="try_again">
+            </div>
+            <div class="message">
+            </div>
+            <div class="answer">
+            </div>
+
+        </div>
+        <script type="module" src="hangman.js">
+        </script>
+    </body>
+</html>
