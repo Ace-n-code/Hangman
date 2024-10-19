@@ -80,6 +80,7 @@ function guess(inp)
     if (enabled==true)
     {
         let flag=0;    //declaring a flag to check whether the guess was true
+        aud1.play();
         for (let i = 0; i < blank.length; i++) 
         {
 
@@ -97,7 +98,8 @@ function guess(inp)
         {
             count++;  //error counter+1
             document.body.classList.add('flash-red'); //css class to make the screen flash red for a moment
-            aud2.play();
+            aud2.play();        //play stab sound
+            aud2.volume=0.8;
             enabled= false;   //disabling the game for a short moment to avoid multiple clicks
             setTimeout(function() {
                 image_update(count);   //updating the image
@@ -177,5 +179,4 @@ function end_game()
     button2.addEventListener("click", function(){hangman()}); //call hangman function
 }
 
-aud1.play();
 window.onload= hangman();   //calling the main funtion when page loads
