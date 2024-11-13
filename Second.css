@@ -1,0 +1,211 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    display: flex; /* Enable flexbox */
+    align-items: center;
+    flex-direction: row;
+    background-image: url('./Assets/bg_3.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(./Assets/logo5-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.G-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;   
+    border-radius: 20px;
+}
+
+#logos{
+    background-size: cover; /* Ensure the logo fits within the div */
+    background-position: center; /* Center the logo */
+    background-repeat: no-repeat; /* Prevent repeating */
+    /* margin:10px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+#logos:hover{
+    cursor: pointer;
+    transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
+.column, .column-2, .column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .column-1,.column-2{
+    margin-left: 50px;
+} */
+
+.column-0{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.row-0{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.row-1, .row-2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.row-3, .row-4{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.G-logo4 {
+    
+    width: 450px;
+    height: 432px;
+    margin-top: 30px;
+    margin-left: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url('./Assets/hangman-game.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+/* Centering the play button */
+.center-image {
+    width: 150px;
+    height: auto;
+    margin-top: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Hover effect for the play button */
+.center-image:hover {
+    transform: scale(1.1); /* Slightly increase the size on hover */
+    /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); Add a shadow on hover */
+    border-radius: 50%;
+    background-color: white;
+}
+
+.G-Overview {
+    margin-top: 30px;
+    padding: 40px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* max-width: 800px; */
+    font-family: Comic Sans MS, sans-serif;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 10px, 0;
+}
+
+.G-logo1 {
+    background-image: url('./Assets/game4.png');
+    height: 105px;
+    width: 105px;
+    margin-left: 55px;
+
+}
+
+.G-logo2 {
+    background-image: url('./Assets/game1.avif');
+    height: 105px;
+    width: 105px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.G-logo3 {
+    background-image: url('./Assets/game2.avif');
+    height: 220px;
+    width: 220px;
+    margin-left: 27.5px;
+}
+
+.G-logo5 {
+    background-image: url('./Assets/game5.jpeg');
+    height: 105px;
+    width: 105px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.G-logo6 {
+    background-image: url('./Assets/game6.jpeg');
+    height: 220px;
+    width: 220px;
+    margin-left: 55px;
+    margin-top: 20px;
+
+}
+.G-logo7 {
+    background-image: url('./Assets/game7.jpeg');
+    height: 220px;
+    width: 220px;
+}
+.G-logo8 {
+    background-image: url('./Assets/game8.png');
+    height: 105px;
+    width: 105px;
+    margin-left: 27.5px;
+}
+.G-logo9 {
+    background-image: url('./Assets/game9.png');
+    height: 105px;
+    width: 105px;
+    margin-left: 27.5px;
+}
+.G-logo10 {
+    background-image: url('./Assets/game10.png');
+    height: 220px;
+    width: 220px;
+    margin-top: 20px;
+}
+.G-logo11 {
+    background-image: url('./Assets/game3.avif');
+    height: 220px;
+    width: 220px;
+    margin-top: 20px;
+}
+.G-logo12 {
+    background-image: url('./Assets/game12.png');
+    height: 105px;
+    width: 105px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+ 

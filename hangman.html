@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>
+            HANGMAN
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <div class="column">
+            <div class="logo">
+                <a href="./First.html">
+                    <img src="./Assets/logo5-removebg-preview.png" alt="logo">
+                </a>
+            </div>
+            <div class="container">
+                <h1><b>The Hangman</b></h1>
+                <p id="level"></p>
+                <div class="audio">
+                    <audio autoplay loop id="creepy">
+                        <source src="audios/creepy.mp3">
+                    <audio id="stab">
+                        <source src="audios/stab.mp3">
+                    <audio loop id="upbeat">
+                            <source src="audios/upbeat.mp3">
+                    </audio>
+                </div>
+                <div class="hangman">
+                </div>
+                <div class="word">
+                </div>
+                <div class="hint">
+                </div>
+                <div class="letters">
+                </div>
+                <div class="try_again">
+                </div>
+                <div class="message">
+                </div>
+                <div class="answer">
+                </div>
+            </div>
+        </div>
+        <script type="module" src="hangman.js">
+        </script>
+    </body>
+</html>

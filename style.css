@@ -1,0 +1,97 @@
+
+.flash-red {
+  filter: opacity(0%);
+  background-color: rgb(211, 1, 43) !important;
+}
+body {
+    transition: filter 0.25s ease;
+    font-family: "Comic Sans MS";
+    background-color: white;
+  }
+  .column{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+  }
+  h1 {
+    margin:10px;
+  }
+  p {
+    font-size: 25px;
+    margin: 5px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+
+  }
+  .container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .hangman {
+    width: 357px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    
+  }
+  
+  .word {
+    font-size: 40px;
+    margin: 10px;
+    white-space: pre;
+  }
+  
+  .hint {
+    font-size: 25px;
+    margin: 0px;
+
+  }
+
+  .letters {
+    margin: 10px;
+    flex-wrap: wrap;
+    width: 650px;
+  }
+  
+  .letters button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border: solid;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .message {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .answer {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .try_again {
+    margin: 0px;
+    flex-wrap: wrap;
+  }
+  .try_again button{
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    border: solid;
+    color: black;
+    cursor: pointer;
+  }
